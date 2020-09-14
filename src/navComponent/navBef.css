@@ -1,0 +1,38 @@
+.navbef{
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    padding:0 55px 0px 0px;
+    min-height: 50px;
+    height: 50px;
+    background-image: linear-gradient(92deg, rgba(255, 255, 255, 0.5), #0095cf), linear-gradient(to bottom, #0095cf, #0095cf);
+}
+
+.navbef .bef-para{
+    padding-right:36px;
+    display: flex;
+    color:#fff;
+    font-weight: 600;
+}
+.bef-para >p:nth-child(1){
+  padding-right:10px
+}
+.bef-para >p:nth-child(2){
+    padding-left:10px
+  }
+
+.navbef .bef-Link  a{
+   text-decoration:none ;
+    background-color: transparent;
+    font-weight: 600;
+    color: #7cdaff;
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {.navbef{ display:none;} } 
+@media (max-width: 1023px) and (min-width: 992px) {.navbef{ display:none;} } 
+@media (max-width: 991px) and (min-width: 768px) {.navbef{ display:none;} } 
+@media (max-width: 767px) and (min-width: 685px) {.navbef{ display:none;} } 
+@media (max-width: 684px) and (min-width: 568px) {.navbef{ display:none;} } 
+@media (max-width: 567px) and (min-width: 480px)  {.navbef{ display:none;} }
+@media (max-width: 480px) and (min-width: 360px)  {.navbef{ display:none;} }
+@media (max-width: 360px) and (min-width: 200px)  {.navbef{ display:none;}}

@@ -1,0 +1,59 @@
+.card-img1{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://premierortho-assets.s3.amazonaws.com/physicaltherapydesktop.jpg") center no-repeat;
+    min-height: 182px;
+    background-size: cover;
+}
+.card-img2{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://premierortho-assets.s3.amazonaws.com/mridesktop.jpg") center no-repeat;
+    min-height: 182px;
+    background-size: cover;
+}
+.card-img3{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://premierortho-assets.s3.amazonaws.com/urgentcarehome.jpeg") center no-repeat;
+    min-height: 182px;
+    background-size: cover;
+}
+
+.card-img4{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://premierortho-assets.s3.amazonaws.com/orthopeadicnew.jpeg") center no-repeat;
+    min-height: 182px;
+    background-size: cover;
+}
+
+.card-heading{
+    font-size: 15px;
+    letter-spacing: 0.3px;
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    padding-bottom:8px;
+}
+.blue-heading{
+    color: rgb(98, 0, 207);
+}
+.green-heading{
+    color: rgb(109, 195, 14);
+}
+.orange-heading{
+    color: #f58223;
+}
+.lblue-heading{
+    color: rgb(0, 149, 207);
+}
+.card-text{
+    display: flex;
+    justify-content: center;
+    text-align:center;
+    min-height:82px;
+}
+.card-text > p{
+    line-height: 1.8;
+    font-size:15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+.read-more{
+    padding-top: 16px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,32 @@
+.card1-img{
+    background-image:url("https://premierortho-assets.s3.amazonaws.com/dickstarly-header.jpeg");
+    min-height: 216px;
+    background-size: cover;
+}
+
+.card2-img{
+    background-image:url("https://premierortho-assets.s3.amazonaws.com/tom-holland.jpeg");
+    min-height: 216px;
+    background-size: cover;
+}
+
+.card3-img{
+    background-image:url("https://premierortho-assets.s3.amazonaws.com/sheilahoist.jpeg");
+    min-height: 216px;
+    background-size: cover;
+}
+.card4-img{
+    background-image:url("https://www.premierortho.com/static/images/blog-placeholder.jpg");
+    min-height: 216px;
+    background-size: cover;
+}
+.image-text{
+    width:100%;
+    background-color: #00000061;
+    color: white;
+    padding: 10px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+}

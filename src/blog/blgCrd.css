@@ -1,0 +1,132 @@
+.bl-img1{
+    background-image: url("https://premierortho-assets.s3.amazonaws.com/finalstrech.jpeg");
+    width:99%;
+    height:242px;
+    background-size: cover;
+}
+
+.bl-img2{
+    background-image: url("https://premierortho-assets.s3.amazonaws.com/offering-telemed.png");
+    width:99.6%;
+    height:242px;
+    background-size: cover;
+}
+
+.bl-img3{
+    background-image: url("https://premierortho-assets.s3.amazonaws.com/servicehead.jpeg");
+    width:99.6%;
+    height:242px;
+    background-size: cover;
+}
+.card-yellow{
+    line-height: 1;
+    background-color: #f4bc16;
+    padding-top:17px;
+    padding-bottom:24px;
+    padding-right:18px;
+    padding-left:18px;
+    color: #fff;
+    width:18%;
+    font-size: 20px ;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 0px ;
+    border-top: 0px ;
+}
+.card-yellow > span{
+    font-size: 14px;
+}
+.card-white{
+    padding-top:17px;
+    padding-bottom:24px;
+    padding-right:18px;
+    padding-left:18px;
+    width:18%;
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:normal;
+    color: #6a6a6a;
+    border: 1px solid #e5e5e5;
+    border-top: 0px ;
+}
+.card-dots{
+    padding: 5px 18px 10px 18px;
+    width:18%;
+    text-align: center;
+    font-weight:normal;
+    color: #6a6a6a;
+    border: 1px solid #e5e5e5;
+    border-top: 0px ;
+}
+.blcard{
+    position: relative;
+}
+.blcard .blcontent{
+    position:absolute;
+    bottom:0;
+    left:18%;
+    height:230px;
+    width:81.5%;
+    background-color: #fff;
+    padding:10px 15px;
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+.blcard .blcontent .blpara-img{
+    position: relative;
+}
+
+.blcard .blcontent .blpara-img .iamge-pos{
+    position: absolute;
+    top:-30px;
+    left:0px;
+}
+.blcard .blcontent .blpara-post{
+    padding-top:48px;
+    padding-bottom: 10px;
+}
+
+.blcard .blcontent .blpara-post > p{
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: #999999;
+}
+.blcard .blcontent .blpara-post span{
+    color:black;
+}
+.blcard .blcontent .blpara-middle{
+    padding-bottom:8px;
+    min-height:36px;
+    color: #333333;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+}
+.blcard .blcontent .blpara-end{
+    padding-top: 10px;
+    min-height:50px;
+    padding-bottom:30px ;
+}
+.blcard .blcontent .blpara-end > p{
+    line-height: 1.57;
+    color: #6a6a6a;
+    font-size: 13px ;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .blcard .blcontent{
+        left:18.5%;
+        height:255px;
+        width:81.5%;
+    }
+} 
+@media (max-width: 1023px) and (min-width: 992px) {   
+    .blcard .blcontent{
+        left:18.5%;
+        height:262px;
+        width:81.5%;
+    }
+} 

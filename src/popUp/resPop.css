@@ -1,0 +1,47 @@
+.responsive-pop{
+    position:fixed;
+    width:100%;
+    top:0px;
+    left:0px;
+    bottom:0px;
+    z-index:700;
+    border-radius:2px;
+    background-color:#fff;
+}
+.responsive-close{
+    width:100%;
+    padding-top:12px;
+    padding-right:12px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    cursor:pointer;
+}
+.responsive-close > i{
+    color: #6a6a6a;
+}
+.responsive-close .fa{
+    font-size: 25px;
+}
+.responsive-close > p{
+    padding-left:6px;
+    font-size:22px ;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: bold;
+    color: #6a6a6a;
+    cursor: pointer;
+}
+.res-search-menu{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top:60px
+
+}
+.chang{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}

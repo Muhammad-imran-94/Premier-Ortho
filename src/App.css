@@ -1,38 +1,228 @@
-.App {
-  text-align: center;
+*{
+ padding:0;
+ margin:0;
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+ scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+li{
+  list-style: none;
+}
+a{
+  text-decoration:none ;
+}
+.f-s-14{
+  font-size: 14px;
+}
+.container-fl{
+  width:100%;
+  max-width: 1250px;
+  margin:0 auto;
+}
+section{
+  padding-top:60px ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.movers{
+  z-index:200;
+  position: fixed;
+  top:358px;
+  right:-196px;
+  transform: rotate(-90deg);
+}
+.res-movers{
+  display: none;
+}
+.btn-fixed{
+  border:none;
+  border-radius:4px;
+  padding: 15px 35px 15px 33px;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  font-weight: 400;
+  cursor:pointer;
+  outline: none;
+}
+.btn-blue{
+  background-color: #0095cf;
+  margin-left:10px;
+}
+.btn-blue:hover{
+  background-color: #04b9ff ;
+}
+.btn-purple{
+  background-color: #6200cf;
+}
+.btn-purple:hover{
+  background-color: #480098 ;
+}
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}
+} 
+@media (max-width: 1023px) and (min-width: 992px) {   
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
+} 
+@media (max-width: 991px) and (min-width: 768px) {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}   
+} 
+@media (max-width: 767px) and (min-width: 685px) {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
+} 
+@media (max-width: 684px) and (min-width: 568px) {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
+} 
+@media (max-width: 567px) and (min-width: 480px)  {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
   }
+.movers{ 
+  display: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
 }
-
-.App-link {
-  color: #61dafb;
+@media (max-width: 480px) and (min-width: 360px)  {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
+}
+@media (max-width: 360px) and (min-width: 200px)  {
+  .res-movers{
+    z-index:900;
+    position: fixed;
+    bottom:0;
+    left:0;
+    display: flex;
+    justify-content: space-around;
+    width:100%;
+    background-image: linear-gradient( to top, rgba(136, 136, 137, 0.66), rgba(0, 0, 0, 0.62) );
+    align-items: center;
+  } 
+  
+.movers{ 
+  display: none;
+}
+.btn-fixed{
+  padding:10px 17px;
+  font-size:9px;
+}  
 }
