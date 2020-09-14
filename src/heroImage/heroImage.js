@@ -41,8 +41,8 @@ const navbar=()=>{
       <div className="Hero-image">
         <div className="img-text">
           <div className="text-content">
-            <span>GOODBYE PAIN</span>
-            <span>HELLO PLAYTIME</span>
+            <span>GOODBYE PAIN.</span>
+            <span>HELLO PLAYTIME.</span>
             <div className="text-para">
               <p>
                 Get back to what you love doing most. With a full spectrum of
