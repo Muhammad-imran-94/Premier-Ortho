@@ -52,19 +52,25 @@ const modalres=()=>{
             <div className="changer-box">
             <p>Please Enter Your Serach</p>
               <select className="select">
-                <option value="0">Specialist's Name</option>
-                <option value="1">Audi</option>
-                <option value="2">BMW</option>
-                <option value="3">Citroen</option>
-                <option value="4">Ford</option>
-                <option value="5">Honda</option>
-                <option value="6">Jaguar</option>
-                <option value="7">Land Rover</option>
-                <option value="8">Mercedes</option>
-                <option value="9">Mini</option>
-                <option value="10">Nissan</option>
-                <option value="11">Toyota</option>
-                <option value="12">Volvo</option>
+              <option value="">Specialist's Name</option>
+              <option value="kenan-aksu-do">Aksu, Kenan D.O.</option>
+              <option value="timothy-p-amann-d-o">Amann, Timothy D.O.</option>
+              <option value="ashley-anderson-md">Anderson, Ashley M.D.</option>
+              <option value="richard-f-balotti-jr-m-d">Balotti, Richard M.D.</option>
+              <option value="evan-bash-md">Bash, Evan M.D.</option>
+              <option value="john-h-benner-md">Benner, John M.D.</option>
+              <option value="jeffrey-berger-do">Berger, Jeffrey D.O.</option>
+              <option value="michael-birns">Birns, Michael M.D.</option>
+              <option value="mark-brigham-m-d">Brigham, Mark M.D.</option>
+              <option value="larry-chou-m-d">Chou, Larry M.D.</option>
+              <option value="louis-j-ciliberti-dpm-ms">Ciliberti, Louis DPM</option>
+              <option value="jeff-citara-d-o-m-s">Citara, Jeffrey D.O.</option>
+              <option value="anne-e-colton-md">Colton, Anne M.D.</option>
+              <option value="james-costanzo-m-d">Costanzo, James M.D.</option>
+              <option value="linda-dandrea-m-d">D'Andrea, Linda M.D.</option>
+              <option value="nicholas-dinubile-m-d">DiNubile, Nicholas M.D.</option>
+              <option value="keli-donnelly-d-o">Donnelly, Keli D.O.</option>
+              <option value="eugene-elia-m-d">Elia, Eugene M.D.</option>
               </select>
             </div>
             </div>
