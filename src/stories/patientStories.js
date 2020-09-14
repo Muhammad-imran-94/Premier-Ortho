@@ -62,6 +62,7 @@ const Patientstories = (props) => {
                   <Carousel
                     showThumbs={false}
                     autoPlay={true}
+                    infiniteLoop={true}
                     ArrowNext={true}
                     renderIndicator={false}
                     showStatus={false}
