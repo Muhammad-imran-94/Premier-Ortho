@@ -51,9 +51,38 @@
     font-size:15px;
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
+    color: #6a6a6a;
 }
 .read-more{
     padding-top: 16px;
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 1199px) and (min-width: 1024px) {
+    .card-text{
+        min-height: 111px;
+    }   
+    .card-heading{
+        min-height: 70px;
+    } 
+} 
+
+@media (max-width: 1023px) and (min-width: 992px) {   
+    .card-text{
+        min-height: 111px;
+    }   
+    .card-heading{
+        min-height: 70px;
+    }  
+}
+ 
+@media (max-width: 991px) and (min-width: 767px) {
+    .card-text{
+        min-height: 131px;
+    }   
+    .card-heading{
+        min-height: 70px;
+    }  
+
+ }

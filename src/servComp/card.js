@@ -13,7 +13,7 @@ const Card=(props)=> {
           <div className="card-text">
           <p>{props.cardpara}</p>
           </div>
-          <div className={"read-more ".concat(props.headingcolor)}>
+          <div className={" read-more ".concat(props.headingcolor).concat(" ").concat(props.padt)}>
           <p>View More</p>
           </div>
           </div>

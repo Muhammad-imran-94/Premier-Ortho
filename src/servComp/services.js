@@ -17,6 +17,7 @@ const Services = (props) => {
                 cardimg="card-img1"
                 cardheading="PHYSICAL THERAPY"
                 headingcolor="blue-heading"
+                padt="pad-t"
                 cardpara="At Premier Orthopedics, we recognize that every person’s injury is unique."
               />
             </div>
@@ -27,6 +28,7 @@ const Services = (props) => {
                 cardimg="card-img2"
                 cardheading="MRI"
                 headingcolor="green-heading"
+                padt="pad-t"
                 cardpara="Premier’s radiologists specialize in the diagnosis of orthopaedic injuries and ailments."
               />
             </div>
@@ -47,6 +49,7 @@ const Services = (props) => {
                 cardimg="card-img4"
                 cardheading="ORTHOPAEDICS"
                 headingcolor="lblue-heading"
+                padt="pad-t"
                 cardpara="There’s no reason to put life on pause because of knee, hip or shoulder pain."
               />
             </div>
